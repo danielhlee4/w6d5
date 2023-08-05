@@ -16,7 +16,6 @@ class Cat < ApplicationRecord
     end
 
     def age
-        
         time_ago_in_words(self.birth_date)
     end
 end
